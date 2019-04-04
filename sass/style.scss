@@ -1,0 +1,55 @@
+@import "helper/mixins";
+@import "helper/placeholders";
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+
+.nav-bar {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+nav {
+  img {
+    width: 180px;
+    height: 60px;
+  }
+
+  ul {
+    margin: 0;
+    margin-right: 40px;
+    margin-top: 15px;
+    padding: 0;
+    list-style: none;
+    float: right;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: black;
+  }
+
+  input {
+    text-decoration-style: none;
+    padding: 0px;
+    background-color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    border: none;
+    font-size: 20px;
+    outline: none !important;
+  }
+
+  body {
+    padding-bottom: 10000px;
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE HTML5>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="author" content="SitePoint" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="nav-bar" id="nav-bar">
+      <img src="img/logoinpng.png" alt="logo1" />
+      <ul>
+        <li>
+          <input
+            type="button"
+            value="About us"
+            id="about"
+            onclick="pageScroll('about')"
+          />
+        </li>
+        <li>
+          <input
+            type="button"
+            value="Our services"
+            id="service"
+            onclick="pageScroll('services')"
+          />
+        </li>
+        <li>
+          <input
+            type="button"
+            value="Contact"
+            id="contact"
+            onclick="pageScroll('contact')"
+          />
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Cover images here-->
+    <div class="cover" id="page-1">
+      <div
+        class="canva-embed"
+        data-design-id="DADWEj0JYGo"
+        data-height-ratio="0.5625"
+        style="padding:56.2500% 5px 5px 5px;background:rgba(0,0,0,0.03);border-radius:8px;"
+      ></div>
+      <script
+        async
+        src="https:&#x2F;&#x2F;sdk.canva.com&#x2F;v1&#x2F;embed.js"
+      ></script>
+    </div>
+    <!-- end -->
+
+    <div class="about" id="page-1">
+      <img src="img/about.png" alt="meet the team" />
+    </div>
+
+    <div class="service" id="page-2">
+      <img src="img/logo1.png" alt="cover-img" id="cover-img" />
+    </div>
+
+    <div class="contact" id="page-3">
+      <img src="img/logo1.png" alt="cover-img" id="cover-img" />
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
+  </body>
+</html>
