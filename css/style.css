@@ -34,7 +34,10 @@ nav input {
   border: none;
   font-size: 20px;
   outline: none !important; }
-nav body {
-  padding-bottom: 10000px; }
+
+body {
+  padding-bottom: 10000px;
+  background-size: cover;
+  margin: 0px; }
 
 /*# sourceMappingURL=style.css.map */
