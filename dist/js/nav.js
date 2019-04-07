@@ -15,3 +15,14 @@ $(document).ready(function() {
     }
   });
 });
+
+//button effects
+$(".nav-btn").hover(
+  function() {
+    $(this).css("border-bottom-style", "solid");
+    $(this).css("border-bottom-color", "#7ed957");
+  },
+  function() {
+    $(this).css("border-bottom-style", "");
+  }
+);

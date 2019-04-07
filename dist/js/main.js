@@ -20,27 +20,24 @@ var page_contact = document.getElementById("page-3");
 var page3height = page_contact.scrollHeight + page2height;
 console.log("Contact section height: " + page3height);
 
-//scroll animation fuction
+//scrolling animation
+$("#anchorAbout").bind("click", function pageScroll() {
+  $(document).ready(function() {
+    $("body,html").animate({ scrollTop: page1height }, 800);
+    console.log(page1height);
+  });
+});
 
-function pageScroll(a) {
-  switch (a == !null) {
-    case a == "about":
-      $(document).ready(function() {
-        $("body,html").animate({ scrollTop: page1height }, 800);
-        console.log(page1height);
-      });
-      break;
-    case a == "service":
-      $(document).ready(function() {
-        $("body,html").animate({ scrollTop: page2height }, 800);
-        console.log(page2height);
-      });
-      break;
-    case a == "contact":
-      $(document).ready(function() {
-        $("body,html").animate({ scrollTop: page3height }, 800);
-        console.log(page3height);
-      });
-      break;
-  }
-}
+$("#anchorService").bind("click", function pageScroll() {
+  $(document).ready(function() {
+    $("body,html").animate({ scrollTop: page2height }, 800);
+    console.log(page2height);
+  });
+});
+
+$("#anchorContact").bind("click", function pageScroll() {
+  $(document).ready(function() {
+    $("body,html").animate({ scrollTop: page3height }, 800);
+    console.log(page3height);
+  });
+});

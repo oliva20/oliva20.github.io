@@ -2,6 +2,12 @@
 @import "helper/placeholders";
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 
+body {
+  padding-bottom: 10000px;
+  background-size: cover;
+  margin: 0px;
+}
+
 .nav-bar {
   font-family: "Roboto Condensed", sans-serif;
   background-color: white;
@@ -39,15 +45,15 @@ nav {
     color: black;
   }
 
-  input {
-    text-decoration-style: none;
-    padding: 0px;
-    background-color: white;
-    font-family: "Roboto Condensed", sans-serif;
-    border: none;
-    font-size: 20px;
-    outline: none !important;
-  }
+  // input {
+  //   text-decoration-style: none;
+  //   padding: 10px;
+  //   background-color: white;
+  //   font-family: "Roboto Condensed", sans-serif;
+  //   border: none;
+  //   font-size: 20px;
+  //   outline: none !important;
+  // }
 }
 
 body {
